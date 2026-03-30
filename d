@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Story & Art Studio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #1e293b, #020617);
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #38bdf8;
+}
+
+header p {
+    font-size: 18px;
+    color: #cbd5f5;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #38bdf8;
+    color: #000;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #38bdf8;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #020617;
+    color: #94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Story & Art Studio</h1>
+    <p>We bring your stories to life with stunning illustrations and animations</p>
+    <a href="#contact" class="btn">Hire Me</a>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p style="text-align:center;">
+        At Story & Art Studio, we help authors, publishers, and brands turn their ideas 
+        into visually stunning experiences. From children's book illustrations to 
+        cinematic book trailers, we make your story unforgettable.
+    </p>
+</section>
+
+<section>
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">📖 Book Illustrations (2D/3D)</div>
+        <div class="card">🎬 Animated Book Trailers</div>
+        <div class="card">🎨 Book Cover Design</div>
+        <div class="card">📢 Book Promotion Videos</div>
+        <div class="card">🎥 2D & 3D Animations</div>
+        <div class="card">✨ Story Visualization</div>
+    </div>
+</section>
+
+<section>
+    <h2>Why Choose Us?</h2>
+    <p style="text-align:center;">
+        ✔ Professional Quality  
+        ✔ Fast Delivery  
+        ✔ Client-Focused Approach  
+        ✔ Trusted by Authors Worldwide  
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p style="text-align:center;">
+        Ready to bring your story to life?  
+        Message us on Facebook:
+    </p>
+    <p style="text-align:center;">
+        <a href="https://facebook.com/StoryAndArtStudio" class="btn">Visit Facebook Page</a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Story & Art Studio | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
